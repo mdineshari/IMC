@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>www.W3docs.com</title>
+    <style>
+      input {
+        height: 30px;
+        padding-left: 10px;
+        border-radius: 4px;
+        border: 1px solid rgb(186, 178, 178);
+        box-shadow: 0px 0px 12px #EFEFEF;
+      }
+    </style>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDNJIkM-vnrJ48rDnA59ERFFRMC1PB11m4&sensor=false&libraries=places&language=en"></script>
+  </head>
+  <body>
+            <form method="post" enctype="multipart/form-data" id="lp-submit-form" name="lp-submit-form">
+                  <div class="white-section border-bottom">
+                        <div class="row">
+                              <div class="form-group col-md-6 col-xs-12">
+                                    <label for="usr">StartUp Title</label>
+                                    <div class="help-text">
+                                          <a href="#" class="help"><i class="fa fa-question"></i></a>
+                                          <div class="help-tooltip">
+                                                <p>Put here Listing title here and tell the name of your business to the world.</p>
+                                          </div>
+                                    </div>
+                                          <input type="text" name="postTitle" class="form-control margin-bottom-10" id="usr" placeholder="Staple &amp; Fancy Hotel">
+                                          <input type="text" name="tagline_text" class="form-control margin-bottom-10" id="usr" placeholder="Tagline Example: Best Express Mexican Grill">
+                              </div>
+                              <div class="form-group col-md-6 col-xs-12">
+                                          <div class="submit-img">
+                                                <img src="" alt="">
+                                          </div>
+                              </div>
+                        </div>
+                        <div class="row">
+                                          <div class="form-group col-md-6 col-xs-12 lp-new-cat-wrape lp-new-cat-wrape">
+                                                <label for="inputTags">City</label>
+                                                <div class="help-text">
+                                                      <a href="#" class="help"><i class="fa fa-question"></i></a>
+                                                      <div class="help-tooltip">
+                                                            <p>This city name will help your list find in seach filters</p>
+                                                      </div>
+                                                </div><select data-placeholder="select your listing region" id="inputCity" name="location[]" class="select2 postsubmitSelect select2-hidden-accessible" tabindex="-1" aria-hidden="true"><option value="">Select City</option><option value="276">Alexandria, VA</option><option value="350">Algeria</option><option value="294">Amherst, MA</option><option value="335">Amman, Jordan</option><option value="266">Amsterdam, NH, NL</option><option value="212">Ankara, Ankara, TR</option><option value="122">Argentina</option><option value="298">Arlington, VA, US</option><option value="152">Atlanta, Ga</option><option value="182">Auckland, Auckland, NZ</option><option value="105">Austin, Texas</option><option value="346">Austria</option><option value="252">Baltimore, MD, US</option><option value="180">Bangkok, TH</option><option value="228">Beijing,&nbsp;Beijing,&nbsp;China</option><option value="250">Beirut, Beirut Governorate, LB</option><option value="269">Beirut|SF</option><option value="158">Bengaluru, India</option><option value="143">Berkeley, CA, US</option><option value="104">Berlin-Mitte</option><option value="74">Berlin, DE</option><option value="230">Berlin,&nbsp;Germany</option><option value="261">Berlin, MD, US</option><option value="136">Beverly Hills, CA</option><option value="248">Bhopal, MP, IN</option><option value="316">BKK / NYC</option><option value="206">Bogotá, Bogota, CO</option><option value="60">Boston, MA</option><option value="119">Boulder, Colorado</option><option value="309">Brest, Brittany, FR</option><option value="213">Brooklyn, NY</option><option value="84">Brussels</option><option value="208">CA, US</option><option value="256">Cairo Governorate, EG</option><option value="205">Cambridge, MA, US</option><option value="331">Cancún, Q.R., MX</option><option value="162">Charlotte, NC, US</option><option value="299">Chicago</option><option value="109">Chile</option><option value="110">Cincinnati, OH</option><option value="177">Ciudad de México y alrededores, México</option><option value="323">CJ, RO</option><option value="257">CL</option><option value="203">CO, US</option><option value="111">Copenhagen, DK</option><option value="284">Dallas, TX, US</option><option value="87">Dallas/Fort Worth Area</option><option value="190">Denver, CO</option><option value="160">Des Moines, IA, US</option><option value="154">Detroit, MI, US</option><option value="72">DF, BR</option><option value="191">Distrito Federal, México</option><option value="155">Dubai</option><option value="209">Dublin, County Dublin, IE</option><option value="291">Durham, NC, US</option><option value="236">Earth, TX, US</option><option value="292">Erfurt, Germany</option><option value="145">Evanston, IL, US</option><option value="214">Fresno, CA, US</option><option value="286">Galway, County Galway, IE</option><option value="263">GB</option><option value="90">Greater New York City Area</option><option value="172">Gurugram, HR, IN</option><option value="333">Haidian District, Beijing, China</option><option value="243">Harrogate, England, GB</option><option value="262">Hebron</option><option value="302">Helsinki, FI</option><option value="68">Hong Kong, HK</option><option value="200">Houston, TX, US</option><option value="102">HR</option><option value="281">IN</option><option value="166">Independence, KS, US</option><option value="80">Indonesia</option><option value="196">Israel</option><option value="260">Istanbul, Turkey</option><option value="151">IT</option><option value="193">Jabodetabek , Indonesia</option><option value="165">Jaipur, RJ, IN</option><option value="79">Jakarta, Jakarta, ID</option><option value="184">Jeffersonville, IN, US</option><option value="188">Joinville, SC, BR</option><option value="140">Kansas City, MO, US</option><option value="232">KE</option><option value="97">KR</option><option value="304">Krung Thep Maha Nakhon, TH</option><option value="129">Kuala Lumpur, MY</option><option value="278">Lafayette, CA, US</option><option value="89">Las Vegas, NV, US</option><option value="159">Latvia</option><option value="313">Lausanne, VD, CH</option><option value="135">Lima, Callao Region, PE</option><option value="249">Little Falls,&nbsp;New Jersey,&nbsp;United States</option><option value="118">London, United Kingdom</option><option value="288">Los Altos, CA, US</option><option value="98">Los Angeles, California</option><option value="124">Los Gatos, CA</option><option value="88">Lyon, Auvergne-Rhône-Alpes, FR</option><option value="76">Madrid, Spain</option><option value="137">Manaus, AM, BR</option><option value="312">Manchester, England, GB</option><option value="170">Melbourne, VIC, AU</option><option value="240">Miami, FL</option><option value="220">Minato-ku, Tokyo&nbsp;</option><option value="92">Minato,&nbsp;Chiba,&nbsp;Japan</option><option value="189">Mirabel, Quebec, Canada</option><option value="173">Mobile, AL</option><option value="78">Montreal, QC, CA</option><option value="185">Moscow, RU</option><option value="61">Mountain View, CA</option><option value="93">Mumbai, India</option><option value="82">Murrieta, CA, US</option><option value="221">MX</option><option value="247">MY</option><option value="272">Nashville, TN, US</option><option value="242">Naucalpan de Juárez y alrededores, México</option><option value="179">New Delhi, India</option><option value="96">New York</option><option value="174">NH, US</option><option value="130">Niterói, RJ, BR</option><option value="71">Oakland, CA, US</option><option value="86">Oslo, Norway</option><option value="275">Ostfold, NO</option><option value="239">Ottawa, Ontario</option><option value="285">Pacific Palisades, California</option><option value="113">Palo Alto, CA</option><option value="66">Paris, Île-de-France, FR</option><option value="274">Peru, USA, Holanda, EAU</option><option value="229">Petaling Jaya, Selangor, MY</option><option value="77">Philadelphia</option><option value="310">Philippines</option><option value="217">Phoenix, AZ</option><option value="251">Pittsburgh</option><option value="327">PK</option><option value="194">Portland, OR</option><option value="121">Portola Valley, CA</option><option value="271">Poznań, Greater Poland Voivodeship, PL</option><option value="171">PR, BR</option><option value="268">Prague, Prague, CZ</option><option value="227">Querétaro Area, Mexico</option><option value="116">Raleigh, NC, US</option><option value="225">Redondo Beach, CA, US</option><option value="259">Redwood City, CA, US</option><option value="183">Richmond, VA, US</option><option value="169">Rio de Janeiro, RJ, BR</option><option value="211">Roma Norte, Ciudad de México, México</option><option value="181">Saint Petersburg, FL, US</option><option value="207">Salinas, CA, US</option><option value="201">Salt Lake City, UT, US</option><option value="125">San Antonio, TX, US</option><option value="241">San Diego, CA</option><option value="63">San Francisco, CA</option><option value="307">San Jose, CA</option><option value="334">San Luis Obispo, CA, US</option><option value="164">San Mateo, CA</option><option value="187">Sandy, UT, US</option><option value="168">Santa Barbara, CA, US</option><option value="317">Santa Clara,&nbsp;California,&nbsp;United States</option><option value="325">Santa Fe Springs, CA, US</option><option value="134">Santa Monica, CA</option><option value="112">São Paulo, Brazil</option><option value="120">São Paulo, Brazil</option><option value="328">Sausalito, CA, US</option><option value="283">SC, BR</option><option value="204">Seattle, WA, US</option><option value="282">Selangor, MY</option><option value="238">Seoul,&nbsp;Seoul-t'ukpyolsi,&nbsp;South Korea</option><option value="210">Seoul, South Korea</option><option value="123">SG</option><option value="235">SI</option><option value="127">Sibiu, SB, RO</option><option value="153">Silicon Valley, CA, US</option><option value="103">Singapore</option><option value="218">SP, BR</option><option value="224">Stamford, CT, US</option><option value="131">Stockholm, Sweden</option><option value="101">Sunnyvale, CA, US</option><option value="64">Sydney, NSW, AU</option><option value="273">Taipei, TW</option><option value="233">Tampa, FL, US</option><option value="139">Taos, NM, US</option><option value="318">Tel Aviv-Yafo</option><option value="300">TH</option><option value="330">Tokyo, Japan</option><option value="100">Toronto, Canada</option><option value="161">Toronto, ON, CA</option><option value="150">Tuxtla Gutiérrez, Chis., MX</option><option value="176">Twin Cities, MN, US</option><option value="306">Umea, Sweden</option><option value="178">US</option><option value="95">Valle Del Marquez, Sonora, Mexico</option><option value="117">Vancouver, BC, CA</option><option value="202">Vienna, Vienna, AT</option><option value="320">VN</option><option value="197">Walnut Creek, CA, US</option><option value="108">Washington, DC</option>
+                                                      </select><span class="select2 select2-container select2-container--default" dir="ltr" style="width: 294px;"><span class="selection"><span class="select2-selection select2-selection--single" role="combobox" aria-autocomplete="list" aria-haspopup="true" aria-expanded="false" tabindex="5" aria-labelledby="select2-inputCity-container"><span class="select2-selection__rendered" id="select2-inputCity-container"><span class="select2-selection__placeholder">select your listing region</span></span><span class="select2-selection__arrow" role="presentation"><b role="presentation"></b></span></span></span><span class="dropdown-wrapper" aria-hidden="true"></span></span>	
+                                          </div>
+                                    <div class="form-group col-md-6 col-xs-12">
+                                          <div class="lp-coordinates">
+                                                <a data-type="gaddress" class="btn-link googleAddressbtn active">Search By Google</a>
+                                                <a data-type="gaddresscustom" class="btn-link googleAddressbtn">Manual Coordinates</a>
+                                          </div>
+                                          <label for="inputAddress" class="googlefulladdress">Google Address</label>
+                                          
+                                          <div class="help-text googlefulladdress">
+                                                <a href="#" class="help"><i class="fa fa-question"></i></a>
+                                                <div class="help-tooltip">
+                                                      <p>Start typing and select your google location from google suggestions, This is for map and also for locating your business</p>
+                                                </div>
+                                          </div>
+                                          
+                                          <input type="text" class="form-control" name="gAddress" id="inputAddress" placeholder="Start typing and find your place in google map" autocomplete="off">
+                                          <div class="lp-custom-lat clearfix">
+                                                <label for="inputAddress">Add Custom Address</label>
+                                                <input type="text" class="form-control" name="gAddresscustom" id="inputAddresss" placeholder="Add address here">
+                                                <div class="row hiddenlatlong">
+                                                      <div class="col-md-6 col-xs-6">
+                                                      <label for="latitude">Latitude</label>
+                                                      <input class="form-control" type="hidden" placeholder="40.7143528" id="latitude" name="latitude">
+                                                      </div>
+                                                      <div class="col-md-6 col-xs-6">
+                                                      <label for="longitude">Longitude</label>
+                                                      <input class="form-control" type="hidden" placeholder="-74.0059731" id="longitude" name="longitude">
+                                                      </div>
+                                                </div>
+                                          </div>
+                                    </div>
+                                    </div>
+                              <div class="row">
+                                          <div class="form-group col-md-6 col-xs-12">
+                                                <label for="inputPhone">Phone</label>
+                                                <input type="text" class="form-control" name="phone" id="inputPhone" placeholder="111-111-1234">
+                                          </div>
+                                    <div class="form-group col-md-6 col-xs-12">
+                                          <label for="inputWebsite">Website</label>
+                                          <input type="text" class="form-control" name="website" id="inputWebsite" placeholder="http://">
+                                    </div>
+                        </div>
+                  </div>
+                  <div class="white-section border-bottom">
+                        <div class="row">
+                              <div class="form-group col-md-6 col-xs-12">
+                                    <div class="form-group clearfix margin-bottom-0 lp-new-cat-wrape">
+                                          <label for="inputCategory">Category</label>
+                                                <select data-placeholder="Choose Your Business Category" id="inputCategory" name="category[]" class="select2 postsubmitSelect select2-hidden-accessible" tabindex="-1" aria-hidden="true"><option value="">Select Category</option><option data-doajax="1" value="44">Big Data and Analytics</option><option data-doajax="1" value="47">Blockchain and Cryptocurrencies</option><option data-doajax="1" value="43">Crowdfunding</option><option data-doajax="" value="99">Data Science, Machine Learning &amp; Artificial Intelligence</option><option data-doajax="" value="114">Developer Tools &amp; SaaS Infrastructure</option><option data-doajax="1" value="46">Digital Banking</option><option data-doajax="" value="133">e-Commerce</option><option data-doajax="" value="216">Financial Tech</option><option data-doajax="1" value="45">Insurtech</option><option data-doajax="1" value="16">International Money Transfer</option><option data-doajax="" value="264">Internet of Things &amp; Hardware</option><option data-doajax="" value="337">iValley StartUps</option><option data-doajax="1" value="25">Lending</option><option data-doajax="" value="277">Marketing &amp; CRM Tech</option><option data-doajax="1" value="49">Other</option><option data-doajax="" class="sub_cat" value="53">-&nbsp;&nbsp;Automotive</option><option data-doajax="" class="sub_cat" value="59">-&nbsp;&nbsp;CA</option><option data-doajax="" class="sub_cat" value="62">-&nbsp;&nbsp;Content &amp; Content Creation</option><option data-doajax="" class="sub_cat" value="163">-&nbsp;&nbsp;Education Tech</option><option data-doajax="" class="sub_cat" value="186">-&nbsp;&nbsp;Enterprise Resource Planning &amp; Productivity</option><option data-doajax="" class="sub_cat" value="246">-&nbsp;&nbsp;Health Tech</option><option data-doajax="" class="sub_cat" value="255">-&nbsp;&nbsp;Human Resources &amp; Recruiting</option><option data-doajax="" class="sub_cat" value="295">-&nbsp;&nbsp;Online to Offline &amp; Human-Powered Service</option><option data-doajax="" class="sub_cat" value="336">-&nbsp;&nbsp;Pro Listings</option><option data-doajax="" class="sub_cat" value="55">-&nbsp;&nbsp;Real Estate</option><option data-doajax="" class="sub_cat" value="308">-&nbsp;&nbsp;Real Estate &amp; Retail</option><option data-doajax="" class="sub_cat" value="57">-&nbsp;&nbsp;Services</option><option data-doajax="" class="sub_cat" value="314">-&nbsp;&nbsp;Social Networks &amp; Collaboration Tools</option><option data-doajax="" class="sub_cat" value="329">-&nbsp;&nbsp;Travel Tech</option><option data-doajax="1" value="29">Payment</option><option data-doajax="1" value="48">RegTech</option><option data-doajax="1" value="33">Wealth management</option>
+                                          </select><span class="select2 select2-container select2-container--default" dir="ltr" style="width: 365px;"><span class="selection"><span class="select2-selection select2-selection--single" role="combobox" aria-autocomplete="list" aria-haspopup="true" aria-expanded="false" tabindex="5" aria-labelledby="select2-inputCategory-container"><span class="select2-selection__rendered" id="select2-inputCategory-container"><span class="select2-selection__placeholder">Choose Your Business Category</span></span><span class="select2-selection__arrow" role="presentation"><b role="presentation"></b></span></span></span><span class="dropdown-wrapper" aria-hidden="true"></span></span>
+                                    </div>
+                              </div>
+                              <div class="form-group col-md-6 col-xs-12">
+                                          <div class="submit-img">
+                                                <img src="" alt="">
+                                          </div>
+                              </div>
+                        </div>
+                              <div class="form-group clearfix lpfeatures_fields">
+                                    <div class="pre-load"></div>
+                                    <div class="featuresDataContainer lp-nested row" id="tags-by-cat"></div>	
+                                    <div class="featuresDataContainer lp-nested row" id="features-by-cat"></div>
+                              </div>
+                        <div class="form-group clearfix">
+                              <div class="row">
+                              </div>
+                        </div>
+                  </div>
+                  <div class="white-section border-bottom">
+                        <div class="row">
+                              <div class="form-group col-md-6 col-xs-12">
+                                    <div class="form-group clearfix">
+                                          <label for="inputDescription">Description</label><div id="wp-inputDescription-wrap" class="wp-core-ui wp-editor-wrap tmce-active"><link rel="stylesheet" id="dashicons-css" href="http://www.ivalley.info/wp-includes/css/dashicons.min.css" type="text/css" media="all">
+<link rel="stylesheet" id="editor-buttons-css" href="http://www.ivalley.info/wp-includes/css/editor.min.css" type="text/css" media="all">
+<div id="wp-inputDescription-editor-container" class="wp-editor-container"><div id="mceu_9" class="mce-tinymce mce-container mce-panel" hidefocus="1" tabindex="-1" role="application" style="visibility: hidden; border-width: 1px; width: 100%;"><div id="mceu_9-body" class="mce-container-body mce-stack-layout"><div id="mceu_10" class="mce-toolbar-grp mce-container mce-panel mce-stack-layout-item mce-first" hidefocus="1" tabindex="-1" role="group"><div id="mceu_10-body" class="mce-container-body mce-stack-layout"><div id="mceu_11" class="mce-container mce-toolbar mce-stack-layout-item mce-first mce-last" role="toolbar"><div id="mceu_11-body" class="mce-container-body mce-flow-layout"><div id="mceu_12" class="mce-container mce-flow-layout-item mce-first mce-btn-group" role="group"><div id="mceu_12-body"><div id="mceu_0" class="mce-widget mce-btn mce-menubtn mce-fixed-width mce-listbox mce-first mce-last mce-btn-has-text" tabindex="-1" aria-labelledby="mceu_0" role="button" aria-haspopup="true"><button id="mceu_0-open" role="presentation" type="button" tabindex="-1"><span class="mce-txt">Paragraph</span> <i class="mce-caret"></i></button></div></div></div><div id="mceu_13" class="mce-container mce-flow-layout-item mce-btn-group" role="group"><div id="mceu_13-body"><div id="mceu_1" class="mce-widget mce-btn mce-first" tabindex="-1" role="button" aria-label="Bold"><button id="mceu_1-button" role="presentation" type="button" tabindex="-1"><i class="mce-ico mce-i-bold"></i></button></div><div id="mceu_2" class="mce-widget mce-btn" tabindex="-1" role="button" aria-label="Italic"><button id="mceu_2-button" role="presentation" type="button" tabindex="-1"><i class="mce-ico mce-i-italic"></i></button></div><div id="mceu_3" class="mce-widget mce-btn mce-last" tabindex="-1" role="button" aria-label="Underline"><button id="mceu_3-button" role="presentation" type="button" tabindex="-1"><i class="mce-ico mce-i-underline"></i></button></div></div></div><div id="mceu_14" class="mce-container mce-flow-layout-item mce-btn-group" role="group"><div id="mceu_14-body"><div id="mceu_4" class="mce-widget mce-btn mce-first" tabindex="-1" role="button" aria-label="Bulleted list"><button id="mceu_4-button" role="presentation" type="button" tabindex="-1"><i class="mce-ico mce-i-bullist"></i></button></div><div id="mceu_5" class="mce-widget mce-btn" tabindex="-1" role="button" aria-label="Numbered list"><button id="mceu_5-button" role="presentation" type="button" tabindex="-1"><i class="mce-ico mce-i-numlist"></i></button></div><div id="mceu_6" class="mce-widget mce-btn mce-last" tabindex="-1" role="button" aria-label="Blockquote"><button id="mceu_6-button" role="presentation" type="button" tabindex="-1"><i class="mce-ico mce-i-blockquote"></i></button></div></div></div><div id="mceu_15" class="mce-container mce-flow-layout-item mce-btn-group" role="group"><div id="mceu_15-body"></div></div><div id="mceu_16" class="mce-container mce-flow-layout-item mce-btn-group" role="group"><div id="mceu_16-body"><div id="mceu_7" class="mce-widget mce-btn mce-first" tabindex="-1" role="button" aria-label="Insert/edit link"><button id="mceu_7-button" role="presentation" type="button" tabindex="-1"><i class="mce-ico mce-i-link"></i></button></div><div id="mceu_8" class="mce-widget mce-btn mce-last" tabindex="-1" role="button" aria-label="Remove link"><button id="mceu_8-button" role="presentation" type="button" tabindex="-1"><i class="mce-ico mce-i-unlink"></i></button></div></div></div><div id="mceu_17" class="mce-container mce-flow-layout-item mce-last mce-btn-group" role="group"><div id="mceu_17-body"></div></div></div></div></div></div><div id="mceu_18" class="mce-edit-area mce-container mce-panel mce-stack-layout-item" hidefocus="1" tabindex="-1" role="group" style="border-width: 1px 0px 0px;"><iframe id="inputDescription_ifr" frameborder="0" allowtransparency="true" title="Rich Text Area. Press Alt-Shift-H for help." style="width: 100%; height: 172px; display: block;"></iframe></div><div id="mceu_19" class="mce-statusbar mce-container mce-panel mce-stack-layout-item mce-last" hidefocus="1" tabindex="-1" role="group" style="border-width: 1px 0px 0px;"><div id="mceu_19-body" class="mce-container-body mce-flow-layout"><div id="mceu_20" class="mce-path mce-flow-layout-item mce-first"><div class="mce-path-item">&nbsp;</div></div><div id="mceu_21" class="mce-flow-layout-item mce-last mce-resizehandle"><i class="mce-ico mce-i-resize"></i></div></div></div></div></div><textarea class="wp-editor-area" rows="8" autocomplete="off" cols="40" name="postContent" id="inputDescription" style="display: none;" aria-hidden="true">Detail description about your listing</textarea></div>
+</div>
+
+
+                                    </div>
+                              </div>
+                              <div class="form-group col-md-6 col-xs-12">
+                                          <div class="submit-img">
+                                                <img src="" alt="">
+                                          </div>
+                              </div>
+                        </div>
+                        <div class="row">
+                              <div class="form-group col-md-6 col-xs-12 lp-social-area">
+                                          <div class="form-group col-md-6 col-xs-12">
+                                                <label for="inputTwitter">Twitter</label>
+                                                <input type="text" class="form-control" name="twitter" id="inputTwitter" placeholder="Your Twitter URL">
+                                          </div>
+                                          <div class="form-group col-md-6 col-xs-12">
+                                                <label for="inputFacebook">Facebook</label>
+                                                <input type="text" class="form-control" name="facebook" id="inputFacebook" placeholder="Your Facebook URL">
+                                          </div>
+                                          <div class="form-group col-md-6 col-xs-12">
+                                                <label for="inputLinkedIn">LinkedIn</label>
+                                                <input type="text" class="form-control" name="linkedin" id="inputLinkedIn" placeholder="Your LinkedIn URL">
+                                          </div>
+                                          <div class="form-group col-md-6 col-xs-12">
+                                                <label for="inputGooglePlus">Google Plus</label>
+                                                <input type="text" class="form-control" name="google_plus" id="inputGooglePlus" placeholder="Your Google Plus URL">
+                                          </div>
+                                          <div class="form-group col-md-6 col-xs-12">
+                                                <label for="inputYoutube">Youtube</label>
+                                                <input type="text" class="form-control" name="youtube" id="inputYoutube" placeholder="Your Youtube URL">
+                                          </div>
+                                          <div class="form-group col-md-6 col-xs-12">
+                                                <label for="inputInstagram">Instagram</label>
+                                                <input type="text" class="form-control" name="instagram" id="inputInstagram" placeholder="Your Instagram URL">
+                                          </div>
+                              </div>
+                        </div>
+                  </div>
+                  <div class="white-section border-bottom">
+                        <div class="row">
+                              <div class="form-group col-md-6 col-xs-12">
+                                                <div class="form-group clearfix">
+                                                      <label for="postVideo">Your Business video<span>(Optional)</span></label>
+                                                      <input type="text" class="form-control" name="postVideo" id="postVideo" placeholder="ex: https://youtu.be/lY2yjAdbvdQ">
+                                                </div>
+                                                <div class="form-group clearfix margin-bottom-0 lp-img-gall-upload-section">
+                                                      <div class="col-sm-12 padding-left-0 padding-right-0">
+                                                            <label for="postVideo">Images </label>	
+                                                            <div class="jFiler-input-dragDrop pos-relative">
+                                                                  <div class="jFiler-input-inner">
+                                                                        <div class="jFiler-input-icon">
+                                                                              <i class="icon-jfi-cloud-up-o"></i>
+                                                                        </div>
+                                                                              <div class="jFiler-input-text">
+                                                                              <h3>Drag&amp;Drop files here</h3>
+                                                                              <span style="display:inline-block; margin: 15px 0">or</span>
+                                                                        </div>
+                                                                        <a class="jFiler-input-choose-btn blue">Browse Files</a>
+                                                                        <div id="filediv">
+                                                                              <input type="file" name="listingfiles[]" id="file" multiple="">
+                                                                        </div>
+                                                                  </div>
+                                                            </div>
+                                                      </div>
+                                                </div>
+                                    <div class="form-group clearfix margin-bottom-0 margin-top-10 lp-listing-featuredimage">
+                                          <label class="margin-top-10">Upload Feature Image</label>
+                                          
+                                          <div class="custom-file">
+                                                <input style="display:none;" type="file" name="lp-featuredimage[]" id="lp-featuredimage" class="inputfile inputfile-3" data-multiple-caption="{count} files selected" multiple="">
+                                                <label for="lp-featuredimage"><p>Browser</p><span>Choose a file…</span></label>
+                                          </div>
+                                    </div>
+                              </div>
+                              <div class="form-group col-md-6 col-xs-12">
+                                          <div class="submit-img">
+                                                <img src="" alt="">
+                                          </div>
+                              </div>
+                        </div>
+                  </div>
+                  <div class="blue-section">
+                        <div class="row">
+                              <div class="form-group col-md-6 margin-bottom-0">
+                        <div class="lp-submit-accoutn lp-submit-accoutn-wrap">
+                            <div class="lp-submit-no-account">
+                                <label for="inputEmail">Email</label>
+                                                  <input type="email" class="form-control" name="email" id="inputEmail" placeholder="your contact email">
+                            </div>
+                            <div class="lp-submit-have-account row" style="display: none;">
+                                <div class="col-md-6"><label for="inputUsername">Email</label>
+                                                  <input type="text" class="form-control" name="inputUsername" id="inputUsername" placeholder="enter username"></div>
+                                                  <div class="col-md-6"><label for="inputUserpass">Password</label>
+                                                  <input type="password" class="form-control" name="inputUserpass" id="inputUserpass" placeholder="enter password"></div>
+                            </div>
+                        </div>
+                                          <div class="checkbox already-account-checkbox"> <input type="checkbox" id="already-account" value=""><label for="already-account" class="already-account">Already Have Account?</label></div>
+
+                                          
+                              </div>
+                              <div class="form-group col-md-6 margin-bottom-0 preview-section-caption clearfix">
+                                    <div class="form-group clearfix margin-bottom-0 preview-section pos-relative col-md-8 pull-right"><div class="clearfix"></div><div class="submitbutton-wraper">
+                                                      <label for="previewListing">Click below to review your listing.</label>
+                                                      <div class="success_box">All of the fields were successfully validated!</div>
+                                                      <div class="error_box"></div>
+                                                      <input type="hidden" name="plan_id" value="none"> 
+                                                      <input type="hidden" name="errorrmsg" value="Oh Sorry! Something Missing"> 
+                                                      <input type="submit" id="listingsubmitBTN" name="listingpost" value="StartUp Preview" class="lp-secondary-btn btn-first-hover">
+                                                      <i class="fa fa-angle-right"></i>
+                                                </div></div><input type="hidden" id="post_nonce_field" name="post_nonce_field" value="699e3d51f8"><input type="hidden" name="_wp_http_referer" value="/submit-listing/">
+                              </div>
+                        </div>
+                  </div>
+            </form>
+    <script>
+      var input = document.getElementById('autocomplete');
+      var autocomplete = new google.maps.places.Autocomplete(input);
+    </script>
+  </body>
+</html>
